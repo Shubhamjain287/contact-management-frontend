@@ -1,0 +1,81 @@
+  // const [user, setUserData] = useState({});
+
+  // const AddContactPage = async () => {
+  //   try{
+  //     const res = await fetch("/addcontacts", {
+  //       method: "GET",
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //     });
+
+  //     const data = await res.json();
+      
+  //     console.log(data);
+  //     setUserData(data);
+
+  //     if (!res.status === 200) {
+  //       const error = new Error(res.error);
+  //       throw error;
+  //     }
+  //   } catch (error) {
+  //     console.log(error);
+  //     Navigate("/login");
+  //   }
+  // }
+
+  // useEffect(() => {
+  //   AddContactPage();
+  // },[])
+
+        {/* <div className="container">
+      <h1 className="p-2 mt-5"> Register </h1>
+      <form method='POST'>
+  <div className="form-group col-md-6">
+     <label htmlFor="name">Enter Your Name</label>
+      <input type="text" className="form-control" id='name' placeholder="Name" autoComplete="off" name="name" value={user.name} onChange={handleInputs} />
+  </div>
+    <div className="form-group col-md-6">
+      <label htmlFor="email">Enter Your Email</label>
+      <input type="email" className="form-control" id="email" placeholder="Email" autoComplete='off' name="email" value={user.email} onChange={handleInputs}/>
+    </div>
+  <div className="form-group col-md-6">
+    <label htmlFor="phone">Enter Mobile phone</label>
+    <input type="phone" className="form-control" id="phone" placeholder="Mobile phone" autoComplete='off' name="phone" value={user.phone} onChange={handleInputs}/>
+  </div>
+  <div className="form-group col-md-6">
+    <label htmlFor="work">Enter Your Profession</label>
+    <input type="text" className="form-control" id="work" placeholder="Profession" autoComplete='off' name="work" value={user.work} onChange={handleInputs} />
+  </div>
+  <div className="form-group col-md-6">
+      <label htmlFor="password">Enter Password</label>
+      <input type="password" className="form-control" id="password" placeholder="Password" autoComplete='off' name="password" value={user.password} onChange={handleInputs} />
+    </div>
+    <div className="form-group col-md-6">
+      <label htmlFor="cpassword">Enter Confirm Password</label>
+      <input type="password" className="form-control" id="cpassword" placeholder="Confirm Password" autoComplete='off' name="cpassword" value={user.cpassword} onChange={handleInputs} />
+    </div>
+  <button type="submit" onClick={postData} name='register' id='register' className="btn btn-primary m-1 ">Register</button>
+</form>
+<div className='mt-3'>
+  <NavLink to="/login" > Already Have An Account ? </NavLink>
+</div>
+</div> */}
+
+      {/* <div className="container">
+      <h1 className="p-1 mt-5"> Login </h1>
+      <form method='POST'>
+    <div className="form-group col-md-6">
+      <label htmlFor="email">Enter Your Email</label>
+      <input type="email" className="form-control" id="email" value={email} onChange={(e)=>setEmail(e.target.value)} placeholder="Email" name='email' autoComplete='off' />
+    </div>
+  <div className="form-group col-md-6">
+      <label htmlFor="password">Enter Password</label>
+      <input type="password" className="form-control" id="password" value={password} onChange={(e)=>setPassword(e.target.value)} placeholder="Password" name='password' autoComplete='off' />
+    </div>
+  <button type="submit" name='login' id='login' value="Log in" className="btn btn-primary m-1" onClick={loginUser}>Login</button>
+</form>
+<div className="mt-3">
+   <NavLink to="/register"> Create an Account !!</NavLink>
+</div>
+</div> */}

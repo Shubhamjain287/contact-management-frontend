@@ -1,38 +1,195 @@
-.App {
-  text-align: center;
+
+.navbar a{
+    margin-left: 1.5rem !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.l-container{
+     /* width: 100vw; */
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.l-box{
+    width: 25rem;
+    height: 28rem;
+    background-color: white;
+    color: rgb(36, 34, 34);
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 10px 10px 25px rgba(0,0,0);
+}
+.l-box .login-h{
+    text-align: center;
+    margin: 15px;
+    font-size: 2.5rem;
+}
+.l-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+.l-form .inputs{
+    margin: 10px;   
+    width: 80%;
+}
+.l-btn{
+    margin: 10px;
+}
+.l-form .l-btn .btn{
+    width: 15rem; 
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+}
+.l-account{
+    margin-left: 90px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Register */
+
+.f-container{
+    /* width: 100vw; */
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.r-box{
+    background-color: white;
+    color: rgb(30, 28, 28);
+    width: 25rem;
+    height: 42rem;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 10px 10px 25px rgba(0,0,0);
 }
-
-.App-link {
-  color: #61dafb;
+.r-h{
+    text-align: center;
+    margin: 20px;
+    font-size: 2.5rem;
 }
+.r-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.r-form .form-group{
+    margin: 5px;
+    margin-right: 10rem;
+}
+.r-form .inputs{
+    width: 180%;
+}
+.r-link{
+    margin-left: 2rem;
+    text-align: center;
+}
+.r-btn{
+    margin: 10px;
+}
+.r-btn .btn{
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+    width: 15rem;
+}
+ /* home Page */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ .h-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+ }
+ .h-box{
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 10px 10px 25px rgba(0,0,0);
+ }
+ .home-h{
+    text-align: center;
+ }
+ .home-h span{
+    color: red;
+ }
+ .home-w{
+    text-align: center;
+ }
+
+ /* Contact Page */
+
+ .c-h{
+    text-align: center;
+    margin-bottom: 2rem;
+ }
+
+ .c-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+ }
+
+ .contact-box{
+    width: 90vw;
+    height: 80vh;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px rgba(0,0,0);
+    padding: 40px;
+    margin-top: -8rem;
+ }
+
+ .button{
+    margin: 0.5rem;
+ }
+ .action{
+    display: flex;
+ }
+  
+
+ /* About Page */
+
+ .a-h{
+    text-align: center;
+    margin: 20px;
+ }
+
+ .a-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+ }
+ 
+ .a-box{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: 10px 10px 25px rgba(0,0,0);
+ }
+ .a-details{
+    margin: 20px;
+ }
+ .a-details h3{
+    margin: 20px;
+    font-size: 15px;
+ }
+ .a-btn{
+    margin: 10px;
+    text-align: center;
+    margin-top: 2rem;
+}
+.a-btn button{
+    width: 15rem; 
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
 }
